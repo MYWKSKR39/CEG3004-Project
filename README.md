@@ -101,11 +101,6 @@ The pipeline is designed to handle noisy and band-limited audio because:
 - Peak normalization handles amplitude distortions
 - Combining multiple feature types reduces dependence on any single frequency range
 
-## Limitations
-- Model trained only on clean audio without augmentation
-- Performance may drop on heavily distorted clips
-- Fixed 5-second length may truncate longer meaningful sound events
-
 ## Output Files (Auto-Generated)
 - `Pr_6_model.joblib` — saved trained model
 - `Pr_6_predictions.csv` — predictions on submission set
